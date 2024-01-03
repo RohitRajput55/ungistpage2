@@ -1,0 +1,421 @@
+
+  
+
+  @media (min-width: 320px) {
+     
+    #navbar {
+      position: fixed;
+    }
+    #navbar #nav-b a {
+      padding: 4px 8px;
+    }
+    .marquee {
+      height: 35px;
+    }
+    .marquee p {
+      font-size: 15px;
+    }
+    #main {
+        flex-direction: column-reverse;
+        height: 150vh;
+    }
+
+    #rightpage {
+      padding-top:35%;
+    }
+    #navbar #nav-b {
+      height: 40px;
+    }
+
+    #navbar #nav-b img  {
+      width: 90px;
+    }
+    #c-details {
+      padding-top: 33%;
+      height: 10vh;
+    }
+    #c-details #c-container {
+      flex-direction: column;
+    }
+    #c-details #c-container img {
+      width: 350px;
+      height: 170px;
+      padding-right: 7%;
+    }
+    #rightpage #card  {
+      width: 350px;
+      margin-left: 4%;
+      height: 500px;
+      
+    }
+    #rightpage #card h2 {
+      font-size: 6vw;
+    }
+    #rightpage #btn4 {
+      margin-left: 25%;
+    }
+    #leftpage 
+    {
+      margin-top: -115%;
+      padding-right:1.5vw ;
+    }
+    #leftpage #h1 {
+      font-size:32px;
+      text-align: center;
+    }
+    #leftpage #h2 {
+      font-size: 25px;
+      text-align: center;
+    }
+    #leftpage #h3 {
+      font-size: 25px;
+      text-align: center;
+    }
+    #c-details #head h1 {
+      font-size: 6vw;
+    }
+    #c-details #c-container #cc-con h1 {
+      margin-top: 20%;
+      font-size: 8vw;
+      text-align: center;
+    }
+    #c-details #c-container #cc-con p {
+      font-size: 6vw;
+      text-align: center;
+    }
+    #benifts {
+      margin-top: 105%;
+      height: 125vh;
+      
+    }
+    #benifts h1 {
+      font-size: 8vw;
+      margin-bottom: 14%;
+    }
+    #benifts #benit-im img {
+      width: 300px;
+      height: 500px;
+    }
+
+    #benifts #btn9 {
+      padding: 12px 3vw;
+      font-size: 15px;
+      margin-left: 11%;
+      margin-top: 10%;
+    }
+    #promhighlights h1 {
+      font-size: 8vw;
+      margin: 5% 0%;
+    }
+
+
+    .wrapper .carousel {
+      grid-auto-columns: 100%;
+    }
+
+    .slider{
+    max-width: 1000px;
+      display: flex;
+    }
+    #topics h1 {
+      font-size: 8vw;
+    }
+    #topics img {
+      padding: 85vw 0vw;
+      margin-top: -65%;
+    }
+    #graphs {
+      margin-top: -50%;
+      height: 290vh;
+    }
+    #graphs h1 {
+      font-size: 8vw;
+      margin-top: 20%;
+    }
+
+    #graphs #graphs-con {
+      flex-direction: column;
+    }
+    #graphs #graphs-con2 {
+      flex-direction: column;
+    }
+    
+#graphs #graphs-con #graph1 img {
+  width: 350px;
+  height: 550px;
+  margin-bottom: 7%;
+}
+#graphs #graphs-con #graph2 img {
+  width: 350px;
+  height: 550px;
+}
+#graphs #graphs-con2 #graph3 img{
+  width: 350px;
+  height: 550px;
+}
+#graphs #graphs-con2 #graph4 img{
+  width: 350px;
+  height: 550px;
+}
+#facality{
+  height: 95vh;
+  padding: 2vw;
+  margin-top: 127%;
+}
+#facality-con  {
+  flex-direction: column;
+}
+#facality #facility-img {
+  width: 100%;
+  padding-left: 11%;
+  height: 100%;
+}
+#facality #about-con {
+  width: 100%;
+  
+  height: 100%;
+}
+
+#facality h1 {
+  font-size: 8vw;
+}
+#facality #about-con h1 {
+  font-size: 8vw;
+  margin-bottom: 10%;
+}
+#facality #about-con h3 {
+  font-size: 4vw;
+  text-align: center;
+}
+#testsimonials {
+  height: 75vh;
+}
+#cards #card1 img {
+  width: 120px;
+  height: 120px;
+}
+#cont h1 {
+  font-size: 8vw;
+  margin: 5% 0%;
+}
+#cards #card1 {
+  width: 290px;
+  height: 400px;
+}
+#cards #card1 h3 {
+  font-size: 6vw;
+}
+#cards #card1 p {
+  font-size: 15px;
+}
+#faq {
+  height: 80vh;
+}
+#faq h1 {
+  font-size: 8vw;
+  margin-bottom: 6%;
+}
+.wrapper {
+  width: 95%;
+  margin-left: 2vw;
+}
+.accordion-title {
+  font-size: 13px
+}
+#footer {
+  flex-direction: column;
+  margin-top: 10%;
+
+}
+#footer #c-logo img {
+  width: 200px;
+}
+#footer #socialmedia {
+margin-right: 64%;
+}
+
+  }
+  @media (min-width: 390px)
+ {
+  #benifts {
+    height: 100vh;
+  }
+  #facality {
+    margin-top: 1px;
+  }
+  #promhighlights {
+    height: 70vh;
+  }
+  #faq {
+    margin-top: -30%;
+  }
+  #footer {
+    margin-top: -20%;
+  }
+ }
+
+  @media (min-width: 400px) {
+    #c-details #c-container img {
+      width: 390px;
+    }
+    #benifts {
+      height: 100vh;
+    }
+    #graphs {
+      height: 275vh;
+    }
+    #facality  {
+      margin-top: 1px;
+    }
+    #promhighlights {
+      height: 70vh;
+    }
+    #faq {
+      margin-top: -30%;
+    }
+    #footer {
+      margin-top: -20%;
+    }
+  }
+
+  @media (min-width: 676px) {
+    .marquee {
+      height: 38px;
+    }
+    .marquee p {
+      font-size: 22px;
+    }
+    #navbar #nav-b {
+      height: 60px;
+    }
+    #c-details {
+      padding-top: 25%;
+    }
+    #c-details #c-container img {
+      width: 100%;
+      height: 100%;
+    }
+    #benifts {
+      height: 110vh;
+    }
+    #benifts #benit-im img {
+      width: 600px;
+      height: 700px;
+    }
+    #benifts #btn9 {
+      margin-left: 30%;
+      padding: 20px 3vw;
+    }
+    #graphs {
+      margin-top: -30%;
+      height: 315vh;
+    }
+    #graphs #graphs-con #graph1 img {
+      width: 600px;
+      height: 700px;
+    }
+    #graphs #graphs-con #graph2 img {
+      width: 600px;
+      height: 700px;
+    }
+    #graphs #graphs-con2 #graph3 img{
+      width: 600px;
+      height: 700px;
+    }
+    #graphs #graphs-con2 #graph4 img  {
+      width: 600px;
+      height: 700px;
+    }
+    #facality {
+      height: 125vh;
+    }
+    #cards #card1 {
+      width: 300px;
+      height: 450px;
+    }
+    #cards #card1 h3 {
+      font-size: 3vw;
+    }
+    #faq  {
+      margin-top: 1px;
+      height: 100vh;
+    }
+    .accordion-title {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 820px) {
+    #c-details #c-container img {
+      width: 108%;
+    }
+    #benifts #btn9 {
+      margin-left: 28%;
+      padding: 30px 5vw;
+      font-size: 18px;
+    }
+    #graphs {
+      height: 280vh;
+    }
+    #faq  {
+      margin-top: -20%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .marquee {
+      height: 50px;
+    }
+    .marquee p {
+      font-size: 26px;
+    }
+
+    #navbar #nav-b img {
+      width: 110px;
+    }
+    #navbar #nav-b a {
+      padding: 9px 12px;
+    }
+    #benifts #benit-im img {
+      width: 650px;
+      height: 900px;
+      margin-left: 20%;
+    }
+    #benifts {
+      margin-top: 98%;
+    }
+    #benifts #btn9 {
+      margin-left: 26%;
+      font-size: 24px;
+    }
+
+    #graphs #graphs-con #graph1 img {
+      width: 700px;
+      height: 800px;
+    }
+    #graphs #graphs-con #graph2 img {
+      width: 700px;
+      height: 800px;
+    }
+    #graphs #graphs-con2 #graph3 img  {
+      width: 700px;
+      height: 800px;
+    }
+    #graphs #graphs-con2 #graph4 img{
+      width: 700px;
+      height: 800px;
+    }
+    #faq {
+      height: 115vh;
+    }
+    .accordion {
+      padding: 1vw;
+      
+    }
+    .accordion-title {
+      font-size: 24px;
+    }
+  }
+  
+
+ 
